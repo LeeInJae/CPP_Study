@@ -22,6 +22,7 @@ private:
 	int		m_Money;
 };
 
+//sort by name
 void Sort()
 {
 	Character lee, kim, jung;
