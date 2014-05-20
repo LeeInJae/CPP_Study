@@ -12,6 +12,10 @@ public:
 		m_arr = new int[ t_capacity ];
 		m_capacity = t_capacity;
 	}
+	~Arr_Stack()
+	{
+		delete[] m_arr;
+	}
 	void Push( int t_data );
 	int	 Pop();
 	bool IsEmpty();
@@ -77,6 +81,7 @@ int main( void )
 	stack->Print();
 	cout << stack->Pop() << endl;
 	stack->Print();
+	delete stack;
 	getchar();
 	return 0;
 }

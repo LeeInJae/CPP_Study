@@ -3,6 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lambda", "lambda\lambda.vcxproj", "{3F7BB855-F0B9-49BB-B7AF-DCC68B6B645C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client\client.vcxproj", "{D0EE42AA-369E-4668-9D8A-BC86B5E8FDEE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SingularLinkedList", "SingularLinkedList\SingularLinkedList.vcxproj", "{ECAA8CE6-32E8-4B9C-AE98-D85983979C07}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SingularLinkiedLis-DoublePointer", "SingularLinkiedLis-DoublePointer\SingularLinkiedLis-DoublePointer.vcxproj", "{BBF78545-C729-4CCD-A450-FA96106863E8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DoubleLinkedList", "DoubleLinkedList\DoubleLinkedList.vcxproj", "{A6B6929C-1FE2-4008-8227-4D4694741013}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CircularDoubleLinkedList", "CircularDoubleLinkedList\CircularDoubleLinkedList.vcxproj", "{F58218B9-1451-46E2-A539-2E12E37B1FE3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArrayStack", "ArrayStack\ArrayStack.vcxproj", "{9E8793E6-4DF8-4C12-8043-5B830C8C9927}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +25,30 @@ Global
 		{3F7BB855-F0B9-49BB-B7AF-DCC68B6B645C}.Debug|Win32.Build.0 = Debug|Win32
 		{3F7BB855-F0B9-49BB-B7AF-DCC68B6B645C}.Release|Win32.ActiveCfg = Release|Win32
 		{3F7BB855-F0B9-49BB-B7AF-DCC68B6B645C}.Release|Win32.Build.0 = Release|Win32
+		{D0EE42AA-369E-4668-9D8A-BC86B5E8FDEE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0EE42AA-369E-4668-9D8A-BC86B5E8FDEE}.Debug|Win32.Build.0 = Debug|Win32
+		{D0EE42AA-369E-4668-9D8A-BC86B5E8FDEE}.Release|Win32.ActiveCfg = Release|Win32
+		{D0EE42AA-369E-4668-9D8A-BC86B5E8FDEE}.Release|Win32.Build.0 = Release|Win32
+		{ECAA8CE6-32E8-4B9C-AE98-D85983979C07}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECAA8CE6-32E8-4B9C-AE98-D85983979C07}.Debug|Win32.Build.0 = Debug|Win32
+		{ECAA8CE6-32E8-4B9C-AE98-D85983979C07}.Release|Win32.ActiveCfg = Release|Win32
+		{ECAA8CE6-32E8-4B9C-AE98-D85983979C07}.Release|Win32.Build.0 = Release|Win32
+		{BBF78545-C729-4CCD-A450-FA96106863E8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BBF78545-C729-4CCD-A450-FA96106863E8}.Debug|Win32.Build.0 = Debug|Win32
+		{BBF78545-C729-4CCD-A450-FA96106863E8}.Release|Win32.ActiveCfg = Release|Win32
+		{BBF78545-C729-4CCD-A450-FA96106863E8}.Release|Win32.Build.0 = Release|Win32
+		{A6B6929C-1FE2-4008-8227-4D4694741013}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A6B6929C-1FE2-4008-8227-4D4694741013}.Debug|Win32.Build.0 = Debug|Win32
+		{A6B6929C-1FE2-4008-8227-4D4694741013}.Release|Win32.ActiveCfg = Release|Win32
+		{A6B6929C-1FE2-4008-8227-4D4694741013}.Release|Win32.Build.0 = Release|Win32
+		{F58218B9-1451-46E2-A539-2E12E37B1FE3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F58218B9-1451-46E2-A539-2E12E37B1FE3}.Debug|Win32.Build.0 = Debug|Win32
+		{F58218B9-1451-46E2-A539-2E12E37B1FE3}.Release|Win32.ActiveCfg = Release|Win32
+		{F58218B9-1451-46E2-A539-2E12E37B1FE3}.Release|Win32.Build.0 = Release|Win32
+		{9E8793E6-4DF8-4C12-8043-5B830C8C9927}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9E8793E6-4DF8-4C12-8043-5B830C8C9927}.Debug|Win32.Build.0 = Debug|Win32
+		{9E8793E6-4DF8-4C12-8043-5B830C8C9927}.Release|Win32.ActiveCfg = Release|Win32
+		{9E8793E6-4DF8-4C12-8043-5B830C8C9927}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

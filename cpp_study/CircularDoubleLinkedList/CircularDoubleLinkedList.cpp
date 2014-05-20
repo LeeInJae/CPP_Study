@@ -16,6 +16,7 @@ void Add_Node( struct Node* phead , int data )
 	new_node->data = data;
 	
 	struct Node* tail = phead->prev;
+
 	tail->next->prev = new_node;
 	tail->next = new_node;
 	new_node->next = phead;
