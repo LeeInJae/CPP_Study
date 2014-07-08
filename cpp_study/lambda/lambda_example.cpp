@@ -41,8 +41,8 @@ void Sort()
 	student_list.push_back( jung );
 
 	student_list.sort( 
-		[](Character a, Character b)
-	{ 
+		[](Character& a, Character& b)
+	->bool{ 
 		return a.GetName() < b.GetName(); 
 	} 
 	);
@@ -52,9 +52,24 @@ void Sort()
 		cout << iter->GetName() << "  " << iter->GetMoney() << endl;
 	}
 }
+
+void Lambda_Test()
+{
+	int mmm = 20;
+	int bbb = 20;
+
+	auto func = [&](int n )
+	{
+		if( bbb == 20)
+			cout << n + mmm << "   hihi" << endl;
+	};
+
+	func( 100 ); 
+}
 int main( void )
 {
-	Sort();
+	//Sort();
+	Lambda_Test();
 	getchar();
 	return 0;
 }
